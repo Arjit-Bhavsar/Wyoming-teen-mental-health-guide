@@ -1,0 +1,1918 @@
+Page1.html:
+----------
+<!DOCTYPE html> <!------EMOTIONS------------->
+<html lang = "en">
+<head> 
+<style>
+#body {
+      background-image: linear-gradient(135deg,#0f172e 0%, #1a2847 50%, #0d1626 100%);
+      color: #000000;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      }
+      
+      #title {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 4rem;
+      font-weight: 750;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      p {
+        text-indent: 50px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 1.8;
+        display: block;
+        font-size: 1.2rem;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .highlighttxt p {
+        color: #fdff75;
+
+      }
+      
+      
+      p3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h2 {
+      display: block;
+      width: 100%;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      border-bottom: 3px solid #000000;
+      color: #ffffff;
+      font-size: 1.67rem; 
+      padding-bottom: 1rem;
+      margin-top: 4%;
+      margin-bottom: 1.5rem 0;
+      text-align: left;
+      }
+      
+      h3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .header {
+       background-image: url(https://t3.ftcdn.net/jpg/02/22/63/26/360_F_222632647_uMPpbpn4QnJptPz6P3ikfdDkNTDb4ACp.jpg);
+       background-position: 0px -2vh;
+       width: 98vw;
+       height: 15vh;
+       text-align: center ;
+       padding: 20px;
+       
+      }
+      
+        .navbar  {
+          background: #5E5D5C;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          padding-right: 10px;
+          position: sticky;
+          backdrop-filter: blur(45px);
+          width: 100vw;
+          padding: 0;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+          z-index: 1000;
+          top: 0;
+          }
+        .navdiv  {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          transition: color 0.3s ease;
+      }
+        .navbar a:hover  {
+          background-color: black;
+          transform: translateY(-5px);
+          color: grey;
+      }
+      
+      li {
+          list-style: none; 
+          display: inline-block;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          float: left;
+          color: black;
+      }
+      
+      li a{
+          color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+          float: left;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          list-stylpe: none;
+          text-decoration: none;
+          display: inline-block;
+          
+      }
+      
+      .container {
+          line-height: 1.8;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: auto;
+          max-height: 800px;
+          width: auto;
+          background-color: #000000; <!---lightblue--->
+          border: #000080;
+          border-radius: 20px;
+          border-left: 50px solid #2219BD;
+          margin: 1.2rem 0;
+      }
+      
+      
+      .container:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container2:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container p:first-of-type {
+            border-bottom: none;
+        }
+
+      
+      .container2 {
+          line-height: 1.9;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: 45vh auto;
+          width: 40vh auto;
+          background-color: #3A6BCE; <!---Blue for container2 background----->
+          border: #000080;
+          border-left: 50px solid #2219bd;
+          color: #000000;
+          margin: 1.2rem 0;
+          border-radius: 20px;
+          transition: all 0.3 ease;
+      }
+      
+      .container2 p {
+          line-hight: 1.5;
+          color: #000000 !important;
+      }
+      .spacer {
+          height: 2rem;
+      }
+      
+      
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            padding: 1.5rem;
+            border-left: 5px solid #facc15;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            color: #3A6BCE;
+        }
+    .container li {
+        display: list-item;
+        margin: 1rem 0;
+        text-align: left;
+    }
+    
+    .container-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+    }
+    
+    .container-list li {
+        display: list-item;
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        margin-left: 1.5rem;
+        line-height: 1.8;
+    }
+    
+    .container-list li:before {
+        content: "▸ ";
+        color: #3ABBCE;
+        position: absolute;
+        left: 0;
+        top: 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    #quiz {
+        display: flex;
+        align-items: center;
+        color: #000080;
+    }
+        a {
+        color: #ffff00;
+    }
+    
+</style>
+
+<body id="body"> 
+<title>Emotions</title>
+
+
+
+<div class = "header">
+    <h1 id="title"> <strong> Emotions </strong> </h1>
+</div>
+
+</div>
+<nav class="navbar">  
+
+    <div class="navdiv"> 
+        <ul>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="index.html" > Home </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page1.html" > Emotions </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page2.html" > Stress Management </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page3.html"> Self-care Stratagies </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page4.html" > Developing Positive Self Talk </a> </li>
+            
+        </ul>
+    </div>
+</nav>
+
+<br>
+<br>
+<br>
+
+
+<a href="Page1.html#quiz">Take the Quiz</a>
+
+<br>
+<br>
+
+<div class = "container">
+
+<h2> <strong>What are Emotions?</strong> </h2> 
+
+<p class = "highlight"> <strong> They are conscious mental reactions towards a certain object or thing; basically they are a response to a certain stimulus that results in physical and behavioral changes. </strong> </p>   
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container"> 
+    
+    <h2> <b>Do teens experience more emotions, and if so, why? </b></h2>
+
+    <h3 class = "highlight"> Teens do experience critical changes because during this period; their brain is undergoing reorganization of the brain as certain parts of your brain mature faster than others. </h3> 
+    
+    <p>A study done by the National Library of Medicine found that the maximum grey matter was reached first by the sensorimotor cortex, while the prefrontal cortex matures last. This imbalance is why teens are prone to be more susceptible to emotions. This period is very important because it allows teens to grow into adults, as adolescence is where most of the development for their adult life occurs during this time. It is ok for you to be more susceptible to your emotions; that's perfectly normal and even a good thing. </p> 
+ </p>
+    
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container">
+
+    <h2 class="p3"> <b>What is emotional intelligence, and what can I do to implement some strategies for it?</b></h2>
+    
+    <h3 class="highlight"><strong> Emotional intelligence is being in control of your emotions and also being able to  connect emotionally with others. </h3> </strong>
+    
+    <p>The most important parts of emotional intelligence are: </p>
+    <div class = "container-list">
+        <li> <p><strong>Recognize:</strong> being able to identify your emotions so that you can resolve the problem if the emotion is negative by finding the source of that emotion.</p> </li>
+        <li> <p> <strong>Analyze:</strong> To be able to recognize your emotions, ask yourself “what am I feeling like right now” and “Why am I feeling [feeling] right now, and what caused it” </p> </li>
+        <li> <p> <strong>Empathize:</strong> Developing empathy so that you can communicate with others effectively. The best way to get better at empathy is to ask more questions, listen more intently, and expose yourself to more people. </p>  </li>
+        
+    </div>
+</div>
+<div style = "width: 100%; margin: 0 auto; display: flex; justify-content: center;">
+    
+<iframe id="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLSfo8nYf81d7wFi5EP4aPw-6HqdK3MoSkQ6pZBQ7LWl0uj60ig/viewform?embedded=true" width="1200" height="1122" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</div>
+
+<div class = "spacer"> </div>
+</body>
+</head>
+</html>
+
+Page2.html:
+----------
+<!DOCTYPE HTML>
+<head> 
+<html> 
+<style>
+#body {
+      background-image: linear-gradient(135deg,#0f172e 0%, #1a2847 50%, #0d1626 100%);
+      color: #000000;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      }
+      
+      #title {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 4rem;
+      font-weight: 750;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      p {
+        text-indent: 50px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 1.8;
+        display: block;
+        font-size: 1.2rem;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .highlighttxt p {
+        color: #fdff75;
+
+      }
+      
+      
+      p3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h2 {
+      display: block;
+      width: 100%;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      border-bottom: 3px solid #000000;
+      color: #ffffff;
+      font-size: 1.67rem; 
+      padding-bottom: 1rem;
+      margin-top: 4%;
+      margin-bottom: 1.5rem 0;
+      text-align: left;
+      }
+      
+      h3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .header {
+       background-image: url(https://t3.ftcdn.net/jpg/02/22/63/26/360_F_222632647_uMPpbpn4QnJptPz6P3ikfdDkNTDb4ACp.jpg);
+       background-position: 0px -2vh;
+       width: 98vw;
+       height: 15vh;
+       text-align: center ;
+       padding: 20px;
+       
+      }
+      
+        .navbar  {
+          background: #5E5D5C;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          padding-right: 10px;
+          position: sticky;
+          backdrop-filter: blur(45px);
+          width: 100vw;
+          padding: 0;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+          z-index: 1000;
+          top: 0;
+          }
+        .navdiv  {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          transition: color 0.3s ease;
+      }
+        .navbar a:hover  {
+          background-color: black;
+          transform: translateY(-5px);
+          color: grey;
+      }
+      
+      li {
+          list-style: none; 
+          display: inline-block;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          float: left;
+          color: black;
+      }
+      
+      li a{
+          color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+          float: left;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          list-stylpe: none;
+          text-decoration: none;
+          display: inline-block;
+          
+      }
+      
+      .container {
+          line-height: 1.8;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: auto;
+          max-height: 800px;
+          width: auto;
+          background-color: #000000; <!---lightblue--->
+          border: #000080;
+          border-radius: 20px;
+          border-left: 50px solid #2219BD;
+          margin: 1.2rem 0;
+      }
+      
+      
+      .container:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container2:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container p:first-of-type {
+            border-bottom: none;
+        }
+
+      
+      .container2 {
+          line-height: 1.9;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: 45vh auto;
+          width: 40vh auto;
+          background-color: #3A6BCE; <!---Blue for container2 background----->
+          border: #000080;
+          border-left: 50px solid #2219bd;
+          color: #000000;
+          margin: 1.2rem 0;
+          border-radius: 20px;
+          transition: all 0.3 ease;
+      }
+      
+      .container2 p {
+          line-hight: 1.5;
+          color: #000000 !important;
+      }
+      .spacer {
+          height: 2rem;
+      }
+      
+      
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            padding: 1.5rem;
+            border-left: 5px solid #facc15;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            color: #3A6BCE;
+        }
+    .container li {
+        display: list-item;
+        margin: 1rem 0;
+        text-align: left;
+    }
+    
+    .container-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+    }
+    
+    .container-list li {
+        display: list-item;
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        margin-left: 1.5rem;
+        line-height: 1.8;
+    }
+    
+    .container-list li:before {
+        content: "▸ ";
+        color: #3ABBCE;
+        position: absolute;
+        left: 0;
+        top: 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    #quiz {
+        align-items: center;
+    }
+    a  {
+        color: #ffff00;
+    }
+    
+</style>
+
+
+
+
+
+<body id="body"> 
+
+<title> Stress Management </title> 
+<div class = "header"> 
+    <h1 id="title"> <strong> Stress Management </strong></h1>
+</div>
+
+
+
+</div>
+<nav class="navbar"> 
+
+    <div class="navdiv"> 
+        <ul>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="index.html" > Home </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page1.html" > Emotions </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page2.html" > Stress Management </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page3.html"> Self-care Stratagies </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page4.html" > Developing Positive Self Talk </a> </li>
+            
+        </ul>
+    </div>
+</nav>
+
+<br>
+<br>
+<a href="Page2.html#quiz">Take the Quiz</a>
+<br>
+<br>
+<br> 
+
+<div class = "container"> 
+    <h2> What is stress? </h2> 
+    <h3 class = "highlight"> Stress is the body's response to changes and challenges. It is the body's way of responding to potential threats and also getting you ready to face what is coming ahead.</p> </li>
+</h3>
+</div>
+
+<br>
+<br>
+<br> 
+
+<div class = "container"> 
+<h2>What causes stress to happen?</h2> 
+
+   <h3 class = "highlight"> Stress triggers can vary from impending deadlines to test anxiety, and certain events cause you to stress because of certain factors that can cause us to worry. But we shouldn't worry about what events cause us stress; it's bound to occur. What matters is how we handle stress.</p> </li> 
+</h3>
+        
+        
+    </div>
+
+<br>
+<br> 
+
+<div class = "container"> 
+
+<h2 class = "p3"><strong>Stress Management stratagies</strong></h2>
+   <p><strong>Identifying triggers</strong></p>
+<h3 class = "highlight"> When you can figure out recurring events that stress you out can help you prepare for them. For example, when you know you will have a big test to take next week, you will feel stressed near the date of the test, so you can prepare by studying now to feel less stressed about your upcoming test. </h3> 
+    
+    <div class = "container-list"> 
+    <li> <p> <strong>Plan:</strong>  When you have a lot of things to do, it can feel like you just don't have enough time to do it all, thus causing stress to ensue. One great strategy to deal with this stress is to schedule out when you can do things. Please note it doesn't have to be too rigid, just simply a guide to follow. </p> </li> 
+    
+    <li> <p> <strong>Mindfulness:</strong> Mindfulness is essentially the idea of responding to emotions rather than reacting to them. Mindfulness helps with processing emotions and also boosts focus and attention span.</p> </li>
+    
+    <li> <p> <strong> Mindful walks: </strong>  Take a walk in nature or outside without being on your phone and try to observe the things happening around you. </p> </li> 
+    
+    <li> <p> <strong> Meditation: </strong> Meditation can help you focus on your thoughts and relax your body. Here are the steps to it. First, find a comfortable place, you can lie down or sit up straight, and just pay attention to your breath and also your thoughts. Try to keep focus on your breath, and if you have thoughts during meditation (completely normal), just try to refocus back on the breath slowly. Take 10 to 20 minutes daily to do this. If you don't have that much time, just observe what is happening around you and be conscious of your breathing pattern; fast or slow, hard or soft, etc.</p> </li>  
+
+    </div>
+    </div>  
+
+<br>
+<br>
+
+<div style = "width: 100%; margin: 0 auto; display: flex; justify-content: center;">
+   <iframe id="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLSfq8dNDdnPJNPtJeajZtkndSxl0A0KtUGQ49U66BqBXNr5XLg/viewform?embedded=true" width="1200" height="1112" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+<div class = "spacer"> </div>
+
+</body>
+
+</head>
+
+
+
+</html>
+
+Page3.html:
+----------
+<!DOCTYPE html>
+
+<html> 
+<head> 
+<style>
+#body {
+      background-image: linear-gradient(135deg,#0f172e 0%, #1a2847 50%, #0d1626 100%);
+      color: #000000;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      }
+      
+      #title {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 4rem;
+      font-weight: 750;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      p {
+        text-indent: 50px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 1.8;
+        display: block;
+        font-size: 1.2rem;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .highlighttxt p {
+        color: #fdff75;
+
+      }
+      
+      
+      p3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h2 {
+      display: block;
+      width: 100%;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      border-bottom: 3px solid #000000;
+      color: #ffffff;
+      font-size: 1.67rem; 
+      padding-bottom: 1rem;
+      margin-top: 4%;
+      margin-bottom: 1.5rem 0;
+      text-align: left;
+      }
+      
+      h3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .header {
+       background-image: url(https://t3.ftcdn.net/jpg/02/22/63/26/360_F_222632647_uMPpbpn4QnJptPz6P3ikfdDkNTDb4ACp.jpg);
+       background-position: 0px -2vh;
+       color: #ffffff;
+       width: 98vw;
+       height: 15vh;
+       text-align: center ;
+       padding: 20px;
+       
+      }
+      
+        .navbar  {
+          background: #5E5D5C;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          padding-right: 10px;
+          position: sticky;
+          backdrop-filter: blur(45px);
+          width: 100vw;
+          padding: 0;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+          z-index: 1000;
+          top: 0;
+          }
+        .navdiv  {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          transition: color 0.3s ease;
+      }
+        .navbar a:hover  {
+          background-color: black;
+          transform: translateY(-5px);
+          color: grey;
+      }
+      
+      li {
+          list-style: none; 
+          display: inline-block;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          float: left;
+          color: white;
+      }
+      
+      li a{
+          color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+          float: left;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          list-stylpe: none;
+          text-decoration: none;
+          display: inline-block;
+          color: #ffffff;
+          
+      }
+      
+      .container {
+          line-height: 1.8;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: auto;
+          max-height: 800px;
+          width: auto;
+          background-color: #000000; <!---lightblue--->
+          border: #000080;
+          border-radius: 20px;
+          border-left: 50px solid #2219BD;
+          margin: 1.2rem 0;
+      }
+      
+      
+      
+      .container:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container2:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container p:first-of-type {
+            border-bottom: none;
+        }
+
+      
+      .container2 {
+          line-height: 1.9;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: 45vh auto;
+          width: 40vh auto;
+          background-color: #3A6BCE; <!---Blue for container2 background----->
+          border: #000080;
+          border-left: 50px solid #2219bd;
+          color: #000000;
+          margin: 1.2rem 0;
+          border-radius: 20px;
+          transition: all 0.3 ease;
+      }
+      
+      .container2 p {
+          line-hight: 1.5;
+          color: #000000 !important;
+      }
+      .spacer {
+          height: 2rem;
+      }
+      
+      
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            padding: 1.5rem;
+            border-left: 5px solid #facc15;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            color: #3A6BCE;
+            position: static;
+        }
+    .container li {
+        display: list-item;
+        margin: 1rem 0;
+        text-align: left;
+    }
+    
+    .container-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+    clear: both;
+    display: block;
+    }
+    
+.container-list li {
+        display: list-item;
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        margin-left: 1.5rem;
+        line-height: 1.8;
+        clear: both;
+    }
+    
+    .container-list li:before {
+        content: "▸ ";
+        color: #3ABBCE;
+        position: absolute;
+        left: 0;
+        top: 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    #quiz {
+        align-items: center;
+    }
+    
+        a {
+        color: #ffff00;
+    }
+    
+</style>
+</head>
+
+<body id = "body">
+    
+<title>Self-Care Strategies</title>
+
+<div class="header">
+    <h1 id = "title"> Self-Care Strategies </h1>
+</div>
+
+<nav class="navbar"> 
+
+    <div class="navdiv"> 
+        <ul>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="index.html" > Home </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page1.html" > Emotions </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page2.html" > Stress Management </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page3.html"> Self-care Stratagies </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page4.html" > Developing Positive Self Talk </a> </li>
+            
+        </ul>
+    </div>
+</nav>
+<br>
+<br>
+<a href="Page3.html#quiz">Take the Quiz</a>
+<br>
+<br>
+<br>
+
+<div class = "container"> 
+    <h2> What is self-care? </h2> 
+
+    <p class = "highlight"> Self-care is essentially caring for yourself, including mental health. Self-care is important because it decreases your stress levels, anxiety, and depression symptoms. </p>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container">
+    <h2> How do I care for myself mentally? </h2>
+    
+    <p> There are many ways to practice self-care for mental health, but here are a few key methods </p>
+    
+    <div class = "container-list">
+        
+    <li> <p> <b> Set clear intentions on what you want to do: </b> eg, saying 1 positive thing about yourself every day, doing one thing every day that makes you feel happy, or talking to a friend when you're sad </p></li>
+    <li> <p> <b> Connect with others:</b> by trying to deepen connections with friends, you socialize more, which studies have shown that social connections help with enhancing mood and even decreasing mortality rates (NIH).</p></li>
+    <li> <p> <b> Relaxation techniques:</b> Relaxing can help activate your parasympathetic nervous system, which is the part of the nervous system that allows for relaxation and reduces stress and body tension. Some strategies include deep breathing, visualizing a calm and soothing place, and progressively relaxing certain muscle groups at a time. </p> </li>
+    <li> <p> <b> Turn emotions into actions: </b> when you feel a certain way, like sadness, take action to do something about it rather than suppress it. For example, you can listen to upbeat music or talk with a friend, just do something positive that makes you feel better. </p> </li> 
+    
+    </div>
+    
+
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container">
+        <h2> Why is sleep so important and how long should they sleep?</h2> 
+    
+    <p class = "highlight">Sleep is essential for teen development, as sleep allows for the rebuilding of muscle, along with supporting bodily functions like focus. 
+    Teens should sleep for 9-10 hours each night</p>
+
+</div>
+
+
+
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container">
+    <h2>  What should I eat for my development? </h2>
+    <p class = "highlight"> During adolescence, teens need a multitude of nutrients: fruits, vegetables, calcium, protein, iron, etc. Teens should eat around the following amounts of each food group </p>
+
+    <ul class = "container-list">
+        <li> <p>2 cups of fruit</p> </li>
+        <li> <p>2 and a half cups of vegetables</p></li>
+        <li> <p>1300 mg of calcium</p></li>
+        <li> <p>5 and a half ounces of protein-rich foods like meat and fish</p></li>
+        <li> <p>6 ounces of grain</p></li>
+        <li> <p>Iron-rich foods like beef, bread, and whole-grain cereal</p></li>
+        <li> <p> Only 25%-35% fat of total calories (average is 2000 but varies based on height and current weight, use a BMI calculator to get a more accurate number)   </p></li>
+        <li><p>  Physical activity is also important for building muscle and bone density and decreasing the risk of diseases. Teens should be exercising for 60 minutes a day. </p> </li>
+    </ul>
+    
+     
+</div>
+
+<br>
+<br>
+<br>
+<div class = "container">
+    <h2>How do I balance school and my personal life?</h2> 
+    
+    <ul class = "container-list">
+        
+    <li> <p>Create a schedule to manage time: use a calendar to block off your classes and sports or any other activities, then schedule time to do the things for you, like reading a book, going on a walk, playing with pets, etc </li> </p> </li>
+
+<li> <p>Say no: say no to things that you don't want to do. It can be a concert that you know you won't like, or spending way too much time with other people when you hang out with them, just say no and focus on what you need to do.</li>
+	</p> </li>
+	<li> <p>be ok with imperfection: you're human, you won't be able to get everything you want to do in a day done, and that's ok, give yourself some grace </li>
+</p> </li>
+    </ul>
+	
+    
+</div>
+<div style = "width: 100%; margin: 0 auto; display: flex; justify-content: center;">
+<iframe id="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLScq2g9ME4on86VIImqiD7lOhV2o7RIVMQLW7ouA51XyEPGcrQ/viewform?embedded=true" width="1200" height="1331" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+</body> 
+
+</html>
+
+Page4.html:
+----------
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> Developing positive self-talk </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+#body {
+      background-image: linear-gradient(135deg,#0f172e 0%, #1a2847 50%, #0d1626 100%);
+      color: #000000;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+      }
+      
+      #title {
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 4rem;
+      font-weight: 750;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h1 {
+        text-align: center;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      p {
+        text-indent: 50px;
+        color: #ffffff;
+        text-align: left;
+        line-height: 1.8;
+        display: block;
+        font-size: 1.2rem;
+        font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      .highlighttxt p {
+        color: #fdff75;
+
+      }
+      
+      
+      p3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+      
+      h2 {
+      display: block;
+      width: 100%;
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      border-bottom: 3px solid #000000;
+      color: #ffffff;
+      font-size: 1.67rem; 
+      padding-bottom: 1rem;
+      margin-top: 4%;
+      margin-bottom: 1.5rem 0;
+      text-align: left;
+      }
+      
+      h3 {
+      font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      color: #ffffff;
+      }
+      
+      .header {
+       background-image: url(https://t3.ftcdn.net/jpg/02/22/63/26/360_F_222632647_uMPpbpn4QnJptPz6P3ikfdDkNTDb4ACp.jpg);
+       background-position: 0px -2vh;
+       width: 98vw;
+       height: 15vh;
+       text-align: center ;
+       padding: 25px;
+       
+      }
+      
+        .navbar  {
+          background: #5E5D5C;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          padding-right: 10px;
+          position: sticky;
+          backdrop-filter: blur(45px);
+          width: 100vw;
+          padding: 0;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+          z-index: 1000;
+          top: 0;
+          }
+        .navdiv  {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          transition: color 0.3s ease;
+      }
+        .navbar a:hover  {
+          background-color: black;
+          transform: translateY(-5px);
+          color: grey;
+      }
+      
+      li {
+          list-style: none; 
+          display: inline-block;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          float: left;
+          color: black;
+      }
+      
+      li a{
+          color: black; font-size: 18px; font-weight: bold; margin-right: 25px;
+          float: left;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          list-stylpe: none;
+          text-decoration: none;
+          display: inline-block;
+          
+      }
+      
+      .container {
+          line-height: 1.8;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: auto;
+          max-height: 800px;
+          width: auto;
+          background-color: #000000; <!---lightblue--->
+          border: #000080;
+          border-radius: 20px;
+          border-left: 50px solid #2219BD;
+          margin: 1.2rem 0;
+      }
+      
+      
+      .container:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container2:hover {
+          transform: translateY(-20px);
+          z-index: 10;
+          transition: all 0.3s ease;
+      }
+      
+      .container p:first-of-type {
+            border-bottom: none;
+        }
+
+      
+      .container2 {
+          line-height: 1.9;
+          justify-content: center;
+          align-items: center;
+          overflow-x: hidden;
+          text-align: center;
+          padding: 20px;
+          height: 45vh auto;
+          width: 40vh auto;
+          background-color: #3A6BCE; <!---Blue for container2 background----->
+          border: #000080;
+          border-left: 50px solid #2219bd;
+          color: #000000;
+          margin: 1.2rem 0;
+          border-radius: 20px;
+          transition: all 0.3 ease;
+      }
+      
+      .container2 p {
+          line-hight: 1.5;
+          color: #000000 !important;
+      }
+      .spacer {
+          height: 2rem;
+      }
+      
+      
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            padding: 1.5rem;
+            border-left: 5px solid #facc15;
+            border-radius: 6px;
+            margin: 1.5rem 0;
+            color: #3A6BCE;
+        }
+    .container li {
+        display: list-item;
+        margin: 1rem 0;
+        text-align: left;
+    }
+    
+    .container-list {
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+    }
+    
+    .container-list li {
+        display: list-item;
+        margin: 1.2rem 0;
+        padding-left: 1.5rem;
+        position: relative;
+        margin-left: 1.5rem;
+        line-height: 1.8;
+        clear: both;
+    }
+    
+    .container-list li:before {
+        content: "▸ ";
+        color: #3ABBCE;
+        position: absolute;
+        left: 0;
+        top: 1rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    #quiz {
+        align-items: center;
+        color: #000080;
+    }
+    a {
+        color: #ffff00;
+    }
+</style>
+
+</head>
+
+<body = id="body">
+       
+<title>Developing Positive-Self talk</title>
+<div class="header"> 
+    <h1 class ="p3"> <j style="color: white;"> <b> Developing Positive-Self talk </b> </h1>
+</div>
+        
+
+</div>
+<nav class="navbar"> 
+
+    <div class="navdiv"> 
+        <ul>
+        
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="index.html" > Home </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page1.html" > Emotions </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page2.html" > Stress Management </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page3.html"> Self-care Stratagies </a> </li>
+            
+            <li> <a style= "color: white; font-size: 18px; font-weight: bold; margin-right: 25px" href="Page4.html" > Developing Positive Self Talk </a> </li>
+            
+        </ul>
+    </div>
+</nav>
+
+<br>
+<br>
+<div style = "color: #000080;">
+    <a href="Page4.html#quiz">Take the Quiz</a>
+</div>
+
+
+<br>
+<br>
+<br>
+<h2 class = "highlight">Positive self-talk has been associated with health benefits such as higher life expectancy, reduced risk of cardiovascular diseases, and lower pain levels </h2>
+<br>
+<p> The main strategy against negative self-talk is: </p>
+
+<p class = "highlight"><b>identifying it and shifting your viewpoint to a more positive outlook.</b></p> <p> For example, turn “I always let my team down” to “I always try my best each game”.</p>
+<br>
+<br>
+<div class = "container">
+    <h2>Four main types of negative thinking</h2>
+    <div class = "container-list">
+        
+    <li> <p> <b>Personalizing:</b> blaming yourself for everything Solutiion:don't put all the blame on yourself, figure out what YOU specifically did wrong.</p></li>
+
+    <li> <p> <b>Magnifying:</b> focusing only on the negative aspects of a situation with no regard to the positives: Solution:focus on what went well </p> </li>
+
+    <li> <p> <b>Catastrophizing:</b> you expect the worst to happen without any logic to persuade you Solution:look at how you can handle the situation, and also apply logic to the situation.</p></li>
+
+    <li> <p> <b> Polarizing: </b> you see the world in black and white or good and bad; you categorize situations without any middle ground. Find the opportunity that this situation brings and use it to shed light on the good aspects of the situation. </p> </li> 
+    
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class = "container">
+
+<h2>Overcoming challenges</h2>
+
+<div class = "container-list">
+<p> There are many strategies you can use to overcome challenges, but we should also understand that challenges can help us become stronger, smarter, and more prepared for the challenges that lie ahead of us. Here is a 4-step method that you can use to overcome challenges: </p>
+<li> <p> <b>Accept and let go:</b> accept where you are and what you are going through </p> </li>
+<li> <p><b>observe and decide:</b> take a step back and view your problem as objectively as possible, and then decide upon what to do next</p> </li>
+<li> <p> <b>Face fears and act:</b> facing your fears is important, as you can solve this challenge by facing your fears and taking action; try to recognize your fear and what actions can mitigate this. </p> </li>
+</div>
+
+</div>
+<br>
+<br>
+<br>
+<div class ="container">
+    
+<h2> <b> What is a mindset, and how does it affect our lives? </h2> </p>
+
+<p>A mindset refers to a person's beliefs about their abilities and attributes. </p>
+<p class = "highlight">A growth mindset is where you believe that your abilities and attributes are able to be developed.  It can benefit your life because not only do you put more effort into things that you are not necessarily good at, but you also put value on what you're doing regardless of the outcome.</p>
+
+
+</div>
+</body>
+
+<div style = "width: 100%; margin: 0 auto; display: flex; justify-content: center; color: #000080;">
+    
+<iframe id="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLScq2g9ME4on86VIImqiD7lOhV2o7RIVMQLW7ouA51XyEPGcrQ/viewform?embedded=true" width="1200" height="1331" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+
+</html>
+
+index.html:
+----------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teen Mental Health Guide </title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta charset="UTF 8">
+    <style>
+        * {
+          box-sizing: border-box;
+          text-decoration: none;
+          margin: 0;
+          padding: 0;
+      }
+        html  {
+          scroll-behavior: smooth;
+          size: 16px;
+          
+      }
+      .title {
+          text-align: center;
+      }
+      
+      .name {
+          float: left;
+      }
+      
+      .date {
+          text-align: right;
+      }
+        body  {
+          font-family: 'Alegreya', serif;
+          background-color: #5E5D5C;
+          <!------orig788475-------------> 
+          min-height: 100vh;
+          overflow-x: hidden;
+      }
+        h1  {
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          text-align: center;
+          color: black;
+      }
+        h3  {
+          text-align: center;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+        a  {
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          color: white;
+          font-size: 2vh;
+          font-weight: bold;
+          margin-right: 25px";
+      }
+        .container  {
+          display: flex;
+          align-content: center;
+          justify-content: space-between;
+          width: 100%;
+      }
+        .header  {
+          background-image: url(https://www.shutterstock.com/image-vector/young-people-teenagers-suffering-psychological-260nw-1870817587.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          grid-template-columms: repeat(4,1fr) align-items: center;
+          justify-content: space-between;
+          position: relative;
+          text-align: center;
+          color: white;
+          font-size: 2rem;
+          font-weight: bold;
+          width: 100vw;
+          height: 15vh;
+          text-align: center;
+          display: flex;
+          background-color: #453643;
+          color: white;
+          padding: 20px;
+      }
+        .header span  {
+          background-color: rgba(0, 0, 0, 0.3);
+          padding: 5px 16px;
+          color: rgba(255,255,255,1);
+          justify-content: center;
+          font-size: 2rem;
+          line-height: 1;  
+          display: inline-block;
+      }
+        .cards-container  {
+          display: flex;
+          flex-wrap: wrap;
+          perspective: 1000px;
+          width: 100vw;
+          height: auto;
+          padding: 0;
+          margin: 0 auto;
+          justify-content: center;
+          align-items: center;
+          
+          
+      }
+        .flip-card  {
+          flex: 1;
+          height: 30vh;
+          width: 15vw;
+          position: relative;
+          transform-style: preserve-3d;
+          background: conic-gradient(lightblue, transparent, lightblue, transparent, lightblue);
+          transform-style: perserve-3d;
+          transition: transform 0.65s;
+          overflow: visible;
+          transition: transform 0.65s;
+          cursor: pointer;
+          
+      }
+        @property --angle  {
+          syntax: "<angle>";
+          initial-value: 0deg;
+          inherits: false;
+      }
+        .flip-card:after, .flip-card:before  {
+          position: absolute;
+          content: '';
+          height: 100%;
+          width: 100%;
+          background: conic-gradient(from var(--angle), lightblue, transparent, blue);
+          top: 50%;
+          left: 50%;
+          translate: -50% -50%;
+          z-index: -1;
+          padding: 10px;
+          border-radius: 10px;
+          animation: 3.14s spin linear infinite;
+      }
+        .flip-card:before  {
+          fliter: blur(1.5rem);
+          opacity: 0.5;
+      }
+        @keyframes spin  {
+        from  {
+          --angle: 0deg;
+      }
+        to  {
+          --angle: 360deg;
+      }
+      }
+        .flip-card.flipped  {
+          transform: rotateY(180deg);
+      }
+        .flip-card:hover  {
+          transform: rotateY(180deg);
+      }
+        .card-face  {
+          position: absolute;
+          width: 90%;
+          height: 100%;
+          backface-visibility: hidden;
+          border-radius: 20px;
+          overflow: hidden;
+          box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+          z-index: 1;
+          /*box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        */
+      }
+        .card-front  {
+          background-size: cover;
+          background-position: center;
+      }
+        .card-front:after  {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background: black;
+        /*change to whatever color */
+      }
+        .card-title  {
+          position: absolute;
+          bottom: 20px;
+          left: 20px;
+          right: 20px;
+          color: white;
+          z-index: 1;
+          font-size: 1vmax;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      }
+        .card-back  {
+          background: black;
+          transform: rotateY(180deg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+      }
+        .card-description  {
+          color: rgba(255,255,255,1);
+          text-align: center;
+          font-size: 1.2vh;
+          line-height: 1.5;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+      }
+        .CMtitle  {
+          display: flex;
+          color: white;
+          bottom: -150px;
+          text-align: center;
+          text-height: 400px;
+          padding: 20px;
+          justify-content: center;
+          align-items: center;
+          right: 150px;
+          
+      }
+        .p3  {
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          font-size: 4.1vmin;
+      }
+        .navbar  {
+          background: #5E5D5C;
+          font-family: 'segoe UI', Tahmoma, Genvea, Verdana, san-serif;
+          padding-right: 10px;
+          position: sticky;
+          backdrop-filter: blur(45px);
+          width: 100vw;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+        .navdiv  {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          overflow: hidden;
+          transition: color 0.3s ease;
+      }
+        .navbar a:hover  {
+          background-color: black;
+          transform: translateY(-3px);
+      }
+        li  {
+          list-style: none;
+          display: inline-block;
+      }
+        li a {
+          color: white;
+          font-size: 18px;
+          font-weight: bold;
+          margin-right: 25px;
+          float: left;
+          font-family:"Lucida Console", "Courier New", monospace;
+      }
+        #bg {
+          background-image: url();
+          background-repeat:no-repeat;
+          background-size: cover;
+          background-position: 0px -200px;
+          min-height: 70vh;
+          width: 100vw;
+          margin: auto;
+          box-sizing: border-box;
+          padding-bottom: 100px;
+          
+      }
+      
+      .BttnCard {
+        background-color: lightblue;
+        text-align: center;
+        border-radius: 10px;
+        height: 100px;
+        width: 250px;
+      }
+        section.tips  {
+          display: flex;
+          text-wrap: wrap;
+          flex-direction: column;
+          text-align: left;
+          align-items: center;
+          font-size: 1.1rem;
+          color: black;
+          font-weight: bold;
+          border-radius: 10px;
+          background-color: #A6D9F7;
+          border: 20px solid #453643;
+          padding: 20px;
+          margin: 20px auto;
+          width: 40vw auto;
+          min-height: 50px;
+          z-index: 20;
+      }
+        #demo  {
+          align-itmes: center;
+          padding: 6px 10px;
+          max-width: 100%;
+          overflow-wrap: anywhere;
+      }
+        #randobttn  {
+          border-radius: 4px;
+          background-color: lightblue;
+          width: 5vmin;
+          text-wrap: wrap;
+      }
+        :root  {
+          --footer-h: 60px;
+      }
+        .footer  {
+          position: fixed;
+          color: white;
+          height: var(--footer-h);
+          background: #000007;
+          display: flex;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100vw;
+          height: 10vh;
+          padding: 0.1vh;
+          align-items: center;
+          justify-content: space-between;
+      }
+        .content  {
+          padding-bottom: calc(var(--footer-h) + 80px);
+      }
+        .footer-container  {
+          background: rgba(0,0,0,1);
+          width: 100%;
+          margin: 0 auto;
+          padding-bottom: 20px;
+          text-align: center;
+      }
+      
+   .footer-item {
+  padding: 20px;
+  white-space: nowrap;
+  text-align: center;
+  flex: 1;
+}
+
+.footer-item.left {
+  text-align: left;
+}
+
+.footer-item.center {
+  text-align: center;
+}
+
+.footer-item.right {
+  text-align: right;
+}
+        @media (min-width: 1200px) {
+            .flip-card {
+                width: 300px; /* Larger cards on big screens */
+            }
+        }
+        
+        /* Tablet view - still horizontal but smaller cards */
+        @media (max-width: 992px) {
+            .flip-card {
+                width: 220px; 
+                height: 180px;
+            }
+            
+            .card-title {
+                font-size: 1rem;
+            }
+            
+            .header {
+                font-size: 1.5rem;
+            }
+            
+            .header span {
+                padding: 3px 8px;
+            }
+        }
+        
+       
+        @media (max-width: 768px) {
+            .cards-container {
+                flex-direction: column; 
+                flex-wrap: nowrap; 
+                align-items: center;
+                overflow-x: visible; 
+                height: 100vh;/* Remove horizontal scroll on mobile */
+            }
+
+            .flip-card {
+                width: 90%; /* Make cards responsive width */
+                max-width: 400px;
+                height: 200px;
+            }
+            
+            section.tips {
+                min-height: 20vh;
+                width: 90%;
+            }
+            
+            .CMtitle {
+                font-size: 2.5rem;
+            }
+        }
+        
+        /* Small mobile */
+        @media (max-width: 480px) {
+            .cards-container{
+                height: 500px;
+            }
+            
+            .card-title {
+                font-size: 0.9rem;
+            }
+            
+            .card-description {
+                font-size: 0.95rem;
+            }
+            .flip-card {
+                width: 300px;
+                height: 300px;
+            }
+        }      
+      
+      
+
+      
+      </style>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const list = [
+     "🏃‍♂️ Exercise daily—even a short walk boosts mood and reduces stress."
+    
+    ,"🥗 Eat balanced meals and stay hydrated to support brain function."
+    
+    ,"😴 Prioritize sleep; aim for consistent bedtime and reduce screen time before bed."
+    
+    ,"🌳 Spend time in nature to lower cortisol and improve focus."
+    
+    ,"🧘‍♀️ Try breathing exercises or meditation to calm your mind."
+    
+    ,"📚 Read for pleasure—just six minutes can reduce stress by 68%."
+    
+    ,"🎨 Engage in creative hobbies like painting, cooking, or building."
+    
+    ,"🧠 Challenge negative thoughts and reframe them positively."
+    
+    ,"💬 Talk to someone—connection reduces anxiety and builds resilience."
+    
+    ,"📅 Set realistic goals and break tasks into manageable steps."
+    
+    ,"🙅‍Learn to say “no” when overwhelmed."
+    
+    ,"🎶 Listen to music that uplifts or soothes your mood."
+    
+    ,"✍️ Write down three things you're grateful for each day. "
+    
+    ,"🧩 Do puzzles or games to stimulate your brain."
+    
+    ,"🚶‍♀️ Take short breaks throughout the day to reset mentally."
+    
+    ,"☀️ Get sunlight exposure to boost serotonin and regulate sleep."
+    
+    ,"🧑‍🤝‍🧑 Volunteer or help others to foster purpose and connection."
+    
+    ,"📵 Limit social media to avoid comparison and overstimulation."
+    
+    ,"🛁 Schedule time for activities that relax and recharge you."
+    
+    ];
+  function rando ()
+  {
+  
+  const randomIndex =  Math.floor(Math.random() * list.length);
+  demo.textContent = list[randomIndex];
+  
+  }
+  
+    rando();
+    
+    setInterval(rando, 5000);
+         document.querySelectorAll('.flip-card').forEach(card => {
+        card.addEventListener('click', () => card.classList.toggle('flipped'));
+      });
+  
+    });
+    
+    </script>
+  </head>
+  <body>
+    <!---start of body tag---------->
+    <div class = "content">
+      <main>
+        <div class="header">
+          <span>Teen</span> <span>Mental</span> <span>Health</span> <span>Guide</span>
+        </div>
+        <nav class="navbar">
+          <div class="navdiv">
+            <ol>
+              <li>
+                <a href="index.html"> Home </a>
+              </li>
+              <li>
+                <a href="Page1.html" > Emotions </a>
+              </li>
+              <li>
+                <a href="Page2.html" > Stress Management </a>
+              </li>
+              <li>
+                <a href="Page3.html"> Self-care Stratagies </a>
+              </li>
+              <li>
+                <a href="Page4.html" > Developing Positive Self Talk </a>
+              </li>
+            </ol>
+          </div>
+        </nav>
+        <div id="bg">
+          <section class = "tips">
+            <h1>
+              <strong>Mental Health Tip!</strong>
+            </h1>
+            <div id="demo">
+            </div>
+            
+            <br><br>
+          </section>
+            <h1 class ="CMtitle">
+              Core Mission
+            </h1>
+            <div class="cards-container">
+              <div class = "flip-card card-1" onclick="this.classlist.toggle('flipped')">
+                <div class = "card-face card-front">
+                  <h3 class = "card-title">
+                    Provide supportive resources for teen mental health
+                  </h3>
+                </div>
+                <div class = "card-face card-back">
+                  <p class="card-description">
+                    Teen Mental Health Guide has the goal of giving vital information towards adolscence mental health that supports teenager mental health and improves their mental health.
+                  </p>
+                </div>
+              </div>
+              <div class = "flip-card card-2" onclick="this.classlist.toggle('flipped')">
+                <div class = "card-face card-front">
+                  <h3 class = "card-title">
+                    Create a safe space for teens to talk about their mental health
+                  </h3>
+                </div>
+                <div class = "card-face card-back">
+                  <p class="card-description">
+                  Teen Mental Health Guide has the goal of creating a safe space by inclusive and some humorous langauge that allows teenagers to have fun learning about their mind.
+                  </p>
+                </div>
+              </div>
+              <div class = "flip-card card-1" onclick="this.classlist.toggle('flipped')">
+                <div class = "card-face card-front">
+                  <h3 class = "card-title">
+                    Empower teens with the tools to enhance their mind and build a stronger future
+                  </h3>
+                </div>
+                <div class = "card-face card-back">
+                  <p class="card-description">
+                    Teen Mental Health Guide has the goal of empowering teenagers by giving them the information and tools they need to fortify their mind and become mentally stronger so that they can do the amazing things they desire to.
+                     </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+   <footer class = "footer"> 
+        <div class = "footer-container">
+            <div class "footer-item center"><h2>Welcome to the Teen Mental Health Guide!</h2></div>
+            <div class "footer-item right">October 2025</div>
+        </div>
+   </footer>
+     
+</body>
+<!---end of body tag---------->
+</html>
+
